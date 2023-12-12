@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/my_primary"
+        android:alpha="0.4"></RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/welcome_message"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        ></TextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStar"
+        android:layout_width="300dp"
+        android:layout_height="68dp"
+        android:text="@string/start_button_label"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="460dp"
+        app:cornerRadius="32dp"/>
+
+</RelativeLayout>
